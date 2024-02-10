@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualOut Title="Shelly RGBW2 Single Mode" Comment="4 channels" Address="http://IP  Shelly RGBW2" CmdInit="" CloseAfterSend="true" CmdSep="">
+	<VirtualOutCmd Title="Dimmer CH0-R" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/white/0?brightness=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Dimmer CH1-G" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/white/1?brightness=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Dimmer CH2-B" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/white/2?brightness=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Dimmer CH3-W" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/white/3?brightness=&lt;v&gt;" CmdOnHTTP="" CmdOnPost="" CmdOff="" CmdOffHTTP="" CmdOffPost="" Analog="true" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Switch CH0-R" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/white/0?turn=on" CmdOnHTTP="" CmdOnPost="" CmdOff="/white/0?turn=off" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Switch CH1-G" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/white/1?turn=on" CmdOnHTTP="" CmdOnPost="" CmdOff="/white/1?turn=off" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Switch CH2-B" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/white/2?turn=on" CmdOnHTTP="" CmdOnPost="" CmdOff="/white/2?turn=off" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="Switch CH3-W" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/white/3?turn=on" CmdOnHTTP="" CmdOnPost="" CmdOff="/white/3?turn=off" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+</VirtualOut>
