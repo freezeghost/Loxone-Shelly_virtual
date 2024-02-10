@@ -1,6 +1,8 @@
 # Loxone-Shelly_virtual
 Set of Shelly virtual inputs and outputs directly conectable to loxone. Not needed any 3rd party connector.<br>
 <br>
+All provided files was tested (my private needs) and maybe some of inputs/outputs transitions need to be corrected. Maximum values are corrected and all tested.<br>
+<br>
 XML files goes into directories<br>
 INPUTS marked VIU "your user documents/Loxone\Loxone Config\Templates\VirtualIn"<br>
 OUTPUTS marked VO "your user documents/Loxone\Loxone Config\Templates\VirtualOut"<br>
