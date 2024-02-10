@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VirtualOut Title="Shelly Plus 2PM" Comment="" Address="http://IP ShellyPlus2PM" CmdInit="" CloseAfterSend="true" CmdSep=";">
+	<Info templateType="3" minVersion="13000726"/>
+	<VirtualOutCmd Title="CoverOpen" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/rpc/Cover.Open?id=0" CmdOnHTTP="" CmdOnPost="" CmdOff="/rpc/Cover.Stop?id=0" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+	<VirtualOutCmd Title="CoverClose" Comment="" CmdOnMethod="GET" CmdOffMethod="GET" CmdOn="/rpc/Cover.Close?id=0" CmdOnHTTP="" CmdOnPost="" CmdOff="/rpc/Cover.Stop?id=0" CmdOffHTTP="" CmdOffPost="" Analog="false" Repeat="0" RepeatRate="0"/>
+</VirtualOut>
